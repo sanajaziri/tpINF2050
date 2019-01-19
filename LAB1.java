@@ -2,7 +2,7 @@ package PackageLab;
 
 public class LAB1 {
 public static void main (String [] args){
-for (int i=0; i<= 100; i++){
+for (int i=0; i<= 200; i++){
     if (i % 3 ==0 && i % 5 == 0)
     {
         System.out.println( "FizzBuzz" );
@@ -12,6 +12,5 @@ for (int i=0; i<= 100; i++){
         System.out.println("Buzz");
     }
 }
-    System.out.println( "bravo sana");
 }
 }
